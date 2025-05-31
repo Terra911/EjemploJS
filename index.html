@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practica JS</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="encabezado">
+        <h1 id="titulo-principal">Práctica de JavaScript</h1>
+    </div>
+    <div id="contenido">
+        <button onclick="modoClaro()">Modo claro</button>
+        <button onclick="modoOscuro()">Modo oscuro</button>
+
+        <button onclick="descuento()">
+            ¿Aplica descuento?
+        </button>
+        <button onclick="cambiarTitulo()">Cambiar titulo</button>
+        <p id="texto-principal">Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Ad magnam iusto totam
+            debitis repellat odit amet assumenda
+            consectetur ex, deleniti praesentium,
+            accusamus ut, laborum quae neque qui?
+            Deserunt, explicabo ex.</p>
+        <h3>Lenguajes de programacion</h3>
+        <ul>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+            <div id="comentarios">
+            <p>Deja tu comentario:</p>
+            <input type="text" id="comentarioNuevo">
+            <button onclick="enviarComentario()">Enviar</button>
+        </div>
+        <img src="progra.jpg" height="300px" width="350px">
+        <div id="zonaDeComentarios">
+
+        </div>
+        
+    </div>
+    <div id="pie">
+        <small>Todos los derechos reservados</small>
+    </div>
+<div>
+    <p>Nombre: <input type="text" id="nombre"></p>
+    <p>Apellido: <input type="text" id="apellido"></p>
+    <p>Email: <input type="email" id="email"></p>
+    <button type="submit" onclick="enviarFormulario()">
+        Enviar formulario
+    </button>
+    <button onclick="usarCelular()">Usar celular</button>
+</div>
+<div>
+    <h2>Cambia el color de fondo:</h2>
+    <input type="color" id="colorUsuario">
+    <button onclick="cambiarFondo()">Cambiar</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
