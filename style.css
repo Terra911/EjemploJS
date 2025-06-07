@@ -3,3 +3,38 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:aliceblue
 }
+
+.slide{
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    background-color: aquamarine;
+}
+
+#slide1{
+    background-color: red;
+}
+#slide2{
+    background-color: blue;
+}
+#slide3{
+    background-color: yellow;
+}
+#slide4{
+    background-color: green;
+}
+
+p:active{
+    color: red;
+}
+
+#imagen:active{
+    transform: skew(20deg);
+    transition-duration: 300ms;
+}
+
+
+
+
+
+

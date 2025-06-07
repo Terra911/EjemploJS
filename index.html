@@ -19,6 +19,25 @@
             ¿Aplica descuento?
         </button>
         <button onclick="cambiarTitulo()">Cambiar titulo</button>
+        <div id="carousel-container">
+            <div class="slide" id="slide1">
+                <h1>Elemento 1</h1>
+            </div>
+            <div class="slide" id="slide2">
+                <h1>Elemento 2</h1>
+            </div>
+            <div class="slide" id="slide3">
+                <h1>Elemento 3</h1>
+            </div>
+            <div class="slide" id="slide4">
+                <h1>Elemento 4</h1>
+            </div>
+            <button onclick="pasarSlides(-1)"><</button>
+            <button id="boton-siguiente" onclick="pasarSlides(+1)">></button>
+        </div>
+        <p></p>
+        <iframe src="https://www.youtube.com/watch?v=0fAQhSRLQnM&pp=ygUOc3VsdGFucyBvZiBzaXc%3D"></iframe>
+        <p></p>
         <p id="texto-principal">Lorem ipsum dolor, sit amet consectetur
             adipisicing elit. Ad magnam iusto totam
             debitis repellat odit amet assumenda
@@ -36,7 +55,7 @@
             <input type="text" id="comentarioNuevo">
             <button onclick="enviarComentario()">Enviar</button>
         </div>
-        <img src="progra.jpg" height="300px" width="350px">
+        <img src="progra.jpg" height="300px" width="350px" id="imagen">
         <div id="zonaDeComentarios">
 
         </div>
@@ -59,6 +78,17 @@
     <input type="color" id="colorUsuario">
     <button onclick="cambiarFondo()">Cambiar</button>
 </div>
+
+<p></p>
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13111.697347267918!2d-58.26260526111752!3d-34.75749876638743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32eea28c7931f%3A0xeeb424f99019ad39!2sEscuela%20Secundaria%20de%20Educaci%C3%B3n%20T%C3%A9cnica%20(E.S.E.T.)%20de%20la%20Universidad%20Nacional%20de%20Quilmes!5e0!3m2!1ses!2sar!4v1749302609675!5m2!1ses!2sar" 
+width="400" height="300" style="border:0;" 
+allowfullscreen="" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
 
     <script src="script.js"></script>
 </body>

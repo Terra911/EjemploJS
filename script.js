@@ -83,6 +83,37 @@ function cambiarFondo(){
 }
 
 
+for(i=0;i<5;i++){
+    console.log("Voy contando por el "+i)
+}
+
+var indiceSlides = 1;
+mostrarSlides(indiceSlides);
+
+if(document.getElementById("boton-siguiente").addEventListener("keydown",KeyboardEvent.altKey)){
+    pasarSlides(-1);
+    
+}
+function pasarSlides(n){
+    
+    mostrarSlides(indiceSlides+=n);
+}
+
+function mostrarSlides(n){
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if(n<1){
+        indiceSlides = x.length;
+    }
+    if(n>x.length){
+        indiceSlides= 1;
+    }
+    for(i=0; i<x.length;i++){
+        x[i].style.display = "none";
+    }
+    x[indiceSlides-1].style.display = "block";
+}
+
 
 
 
